@@ -3,7 +3,7 @@
     }
     body {font-family: Arial, Helvetica, sans-serif;
     padding: 90px 20px 0;}
-    .header{ background-color: aquamarine;
+    .header{ background-color:cadetblue;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -29,11 +29,11 @@
     width: max-content;}
     .nml{ padding: 8px 12px;
     border-radius: 5px;}
-    .nml:hover{background-color: bisque;
+    .nml:hover{background-color:cornflowerblue;
     transition: 1;}
     .toggle{
         color:white;
-        background-color:blue;
+        background-color:chartreuse;
         font-size:30px;
         padding:0 20px;
         line-height: 60;
@@ -41,7 +41,7 @@
         display:none;
     }
     .btn{
-        background-color: dodgerblue;
+        background-color:cornflowerblue;
         border: none;
         color: white;
         padding: 12px 16px;
@@ -50,7 +50,7 @@
     }
     @media(max-width:768px){
         body{
-            background-color: cyan;
+            background-color:darkturquoise;
             padding-top: 70px;
         }
     
@@ -63,7 +63,7 @@
     .nav-menu{
         flex-direction: column;
         margin-right: 20px;
-        background-color: cadetblue;
+        background-color:deepskyblue;
         position: fixed;
         left: 0;
         top: 60px;
@@ -81,7 +81,7 @@
     }
     .toggle{
         color:white;
-        background-color: blue;
+        background-color:cornflowerblue;
         border: none;
         font-size: 30px;
         padding: 0 20px;
@@ -89,7 +89,7 @@
         display: none;
     }
     .btn{
-        background-color: dodgerblue;
+        background-color:cornflowerblue;
         border: none;
         color: white;
         padding: 12px 16px;
