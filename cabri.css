@@ -1,7 +1,7 @@
 *{ margin: 0;
     box-sizing: border-box;
     }
-    body {font-family: Arial, Helvetica, sans-serif;
+    body {font-family:'Times New Roman', Times, serif;
     padding: 90px 20px 0;}
     .header{ background-color:cadetblue;
     height: 80px;
@@ -33,12 +33,13 @@
     transition: 1;}
     .toggle{
         color:white;
-        background-color:chartreuse;
-        font-size:30px;
-        padding:0 20px;
-        line-height: 60;
-        cursor: progress;
-        display:none;
+        background-color:black;
+        border: white;
+        padding: 6px 6px;
+        font-size: 28px;
+        cursor: pointer;
+        display: inline;
+        height: 79px;
     }
     .btn{
         background-color:cornflowerblue;
@@ -62,15 +63,19 @@
     line-height: 60px;}
     .nav-menu{
         flex-direction: column;
+        align-items: center;
         margin-right: 20px;
         background-color:deepskyblue;
-        position: fixed;
+        position: absolute;
         left: 0;
         top: 60px;
         width: 100%;
         padding: 20px 0;
         height:calc(100%-60px);
         overflow: auto;
+        left: 100%;
+        transition: left 0.3s;
+        padding: 20px;
     }
     .nmi{
         line-height: 70px;
@@ -81,12 +86,13 @@
     }
     .toggle{
         color:white;
-        background-color:cornflowerblue;
+        background-color:black;
         border: none;
         font-size: 30px;
-        padding: 0 20px;
-        cursor: progress;
-        display: none;
+        padding: 12px 12px;
+        cursor: pointer;
+        display: block;
+        height: 60px;
     }
     .btn{
         background-color:cornflowerblue;
@@ -95,4 +101,8 @@
         padding: 12px 16px;
         font-size: 16px;
         cursor: pointer;
-    }}
+    }
+.nav-menvi{
+    left:0;
+}
+}
